@@ -1,0 +1,28 @@
+header{
+    width: 100%;
+    text-align: center;
+    border: solid 1px black;
+    
+}
+.menu{
+    width: 80%;
+    height: 80px;
+    /*background-color: cornflowerblue;*/
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-between;
+}
+.menu img{
+    padding-right: 5px;
+}
+.menu h1{
+    display: inline-block;
+    font-weight: bold;
+}
+.menu li{
+    display: inline-block;
+    margin-left: 15px;
+}
