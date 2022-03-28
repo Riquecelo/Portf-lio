@@ -15,12 +15,14 @@
 }
 .container-apresentacao p{
     color: #464646;
+    font-weight: 400;
     font-size: 22px;
     line-height: 26px;
     margin-bottom: 20px;
 }
 .container-apresentacao li{
     display: inline-block;
+    font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     margin-right: 30px;

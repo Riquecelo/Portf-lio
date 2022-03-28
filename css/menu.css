@@ -1,13 +1,11 @@
 header{
     width: 100%;
     text-align: center;
-    border: solid 1px black;
-    
 }
+
 .menu{
     width: 80%;
     height: 80px;
-    /*background-color: cornflowerblue;*/
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -21,8 +19,47 @@ header{
 .menu h1{
     display: inline-block;
     font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
 }
 .menu li{
     display: inline-block;
     margin-left: 15px;
+}
+.menu li a{
+    color: #464646;
+    text-decoration: none;
+    position: relative;
+}
+.menu li a::after{
+    content: " ";
+    width: 0%;
+    height: 1px;
+    background-color: #96bbff;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.5s ease-in-out;
+}
+.menu li a:hover::after{
+    width: 100%; 
+}
+.menu li strong{
+    font-weight: bold;
+    color: #464646;
+}
+
+
+@media  (max-width: 968px) { 
+    .menu ul> .ocultar{
+        display: none;
+    }
+}
+
+@media  (max-width: 768px) {
+   .menu ul> .ocultar{
+       display: none;
+   }
 }
