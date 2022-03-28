@@ -1,4 +1,28 @@
 .sobre{
-    border: solid 1px black;
     background: #EAF2FD;
+}
+
+.container-sobre{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-sobre h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+.container-sobre p{
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.container-sobre img{
+    width: 140px;
+    height: 52px;
 }
