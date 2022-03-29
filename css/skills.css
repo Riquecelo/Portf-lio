@@ -1,0 +1,40 @@
+.container-skills{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.container-skills h2{
+    width: 100%;
+    text-align: center;
+    padding: 32px 0;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+.container-skills ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 0;
+}
+.container-skills li{
+    width: 170px;
+    height: 174px;
+    background: #FFFFFF;  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+.container-skills li img{
+    width: 24px;
+    height: 37px;
+    margin: 0 0 15px 15px;
+}
+.container-skills li p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #464646;
+    margin: 0 0 15px 15px;
+}
