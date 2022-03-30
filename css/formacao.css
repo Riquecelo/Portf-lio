@@ -1,0 +1,47 @@
+.formacao{
+    height: 580px;
+    background: #EAF2FD;
+}
+.container-formacao{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+}
+
+.container-formacao h2{
+    width: 100%;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 82px;
+}
+.quadro-formacao{
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.quadro-formacao div{
+    width: 350px;
+}
+
+.quadro-imagem{
+    width: inherit;
+    height: 250px;
+    background-color: #FFFFFF;
+}
+
+.quadro-imagem img{
+    width: 100%;
+    height: 250px;
+}
+.quadro-formacao div h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 10px 0;
+}
