@@ -1,9 +1,9 @@
-.container-skills{
+.container-skills-hobbies{
     width: 80%;
     height: 100%;
     margin: 0 auto;
 }
-.container-skills h2{
+.container-skills-hobbies h2{
     width: 100%;
     text-align: center;
     padding: 32px 0;
@@ -11,13 +11,13 @@
     font-weight: 700;
     line-height: 38px;
 }
-.container-skills ul{
+.container-skills-hobbies ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: auto 0;
 }
-.container-skills li{
+.container-skills-hobbies li{
     width: 170px;
     height: 174px;
     background: #FFFFFF;  
@@ -26,12 +26,12 @@
     justify-content: flex-end;
     
 }
-.container-skills li img{
+.container-skills-hobbies li img{
     width: 24px;
     height: 37px;
     margin: 0 0 15px 15px;
 }
-.container-skills li p{
+.container-skills-hobbies li p{
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
