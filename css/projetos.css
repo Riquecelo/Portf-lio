@@ -9,7 +9,7 @@
     font-weight: 700;
     line-height: 38px;
     text-align: center;
-    margin: 30px 0;
+    margin: 40px 0;
 }
 .quadro-projeto{
     display: flex;
@@ -17,6 +17,7 @@
     height: 400px;
     flex-direction: row;
     align-items: stretch;
+    margin-bottom: 30px;
 }
 
 .quadro-projeto img{
@@ -28,14 +29,32 @@
 }
 
 .quadro-botoes{
-   margin: auto 10px;
+   margin: auto 16px;
 }
 
-.quadro-botoes h2{
+.quadro-botoes h3{
     font-size: 22px;
     font-weight: 700;
     line-height: 26px;
 }
 .quadro-botoes p{
     margin: 10px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+.quadro-botoes button{
+    padding: 16px;
+    height: 51px;
+    margin-right: 16px;
+    cursor: pointer;
+    border: 1px solid #2a7ae4;
+    box-sizing: border-box;
+}
+.repo{
+    color: #2a7ae4;
+}
+.demo{
+    background-color: #2a7ae4;
+    color: #FFFFFF; 
 }
