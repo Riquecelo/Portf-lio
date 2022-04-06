@@ -1,0 +1,24 @@
+.formulario{
+    background: #627b9e;
+}
+.formulario .container-formulario{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.img-formulario{
+    height: 100%;
+    width: 50%;
+}
+.img-formulario img{
+    height: 100%;
+    width: 100%;
+}
+
+.caixa-formulario{
+    border: solid 1px black;
+    height: 100%;
+    width: 50%;
+}

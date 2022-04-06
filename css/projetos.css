@@ -24,7 +24,7 @@
 }
 
 .quadro-projeto img{
-    width: 650px;
+    width: 95%;
     height: 400px;
 }
 .inverso{
@@ -47,9 +47,9 @@
     line-height: 19px;
 }
 .quadro-botoes button{
-    padding: 16px;
+    padding: 16px 14px;
     height: 51px;
-    margin-right: 16px;
+    margin-right: 10px;
     cursor: pointer;
     border: 1px solid #2a7ae4;
     box-sizing: border-box;
