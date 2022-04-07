@@ -26,3 +26,22 @@
     width: 140px;
     height: 52px;
 }
+
+
+
+@media  (max-width: 968px) { 
+
+    .container-sobre{
+        width: 90%;
+    }
+    .container-sobre p{
+        width: 85%;
+    }
+}
+
+@media  (max-width: 768px) {
+    
+   .container-sobre p{
+       width: 95%;
+   }
+}

@@ -47,12 +47,20 @@ header{
 
 
 @media  (max-width: 968px) { 
+
+    .menu{
+        width: 90%;
+    }
     .menu ul> .ocultar{
         display: none;
     }
 }
 
 @media  (max-width: 768px) {
+    
+    .menu{
+        width: 90%;
+    }
    .menu ul> .ocultar{
        display: none;
    }

@@ -23,6 +23,7 @@
 .container-skills-hobbies li{
     width: 155px;
     height: 174px;
+    margin: 10px 10px 10px 0;
     background: #FFFFFF;  
     display: flex;
     flex-direction: column;
@@ -39,4 +40,21 @@
     font-weight: 700;
     line-height: 19px;
     margin: 0 0 15px 15px;
+}
+
+@media  (max-width: 1024px) {
+
+    .skills-hobbies{
+        height: auto;
+    }
+    .container-skills-hobbies ul{
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media  (max-width: 768px) {
+
+    
 }
