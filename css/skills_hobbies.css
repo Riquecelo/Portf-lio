@@ -21,7 +21,7 @@
     margin: auto 0;
 }
 .container-skills-hobbies li{
-    width: 155px;
+    width: 160px;
     height: 174px;
     margin: 10px 10px 10px 0;
     background: #FFFFFF;  
@@ -51,10 +51,34 @@
         flex-wrap: wrap;
         margin-bottom: 10px;
     }
+    .container-skills-hobbies li{
+        height: 118px;
+        width: 200px;
+    }   
 
 }
 
 @media  (max-width: 768px) {
 
-    
+    .container-skills-hobbies{
+        width: 90%;
+    }
+
+    .container-skills-hobbies li{
+        height: 118px;
+        width: 200px;
+    }    
+}
+
+
+@media  (max-width: 699px) {
+
+    .container-skills-hobbies{
+        width: 90%;
+    }
+
+    .container-skills-hobbies li{
+        height: 118px;
+        width: 250px;
+    }
 }

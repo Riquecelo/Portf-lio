@@ -45,3 +45,30 @@
     line-height: 26px;
     margin: 10px 0;
 }
+
+
+@media  (max-width: 768px) {
+
+    .container-formacao{
+        width: 90%;
+    }
+
+    .quadro-formacao div{
+        height: 180px;
+        width: 97%;
+    }
+    /* 
+    .quadro-imagem{
+        
+        height: 150px;
+        
+    }*/
+
+    .quadro-imagem img{
+        
+        height: 100%;
+        
+    }
+    
+
+}
