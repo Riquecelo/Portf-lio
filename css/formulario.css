@@ -57,3 +57,17 @@
     border: none;
     cursor: pointer;
 }
+
+
+@media  (max-width: 768px) {
+    .container-formulario{
+        width: 90%;
+    }
+    .img-formulario{
+        display: none;
+    }
+
+    .caixa-formulario{
+        width: 100%;
+    }
+}

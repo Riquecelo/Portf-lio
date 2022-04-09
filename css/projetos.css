@@ -61,3 +61,24 @@
     background-color: #2a7ae4;
     color: #FFFFFF; 
 }
+
+
+@media  (max-width: 768px) {
+    .container-projetos{
+        width: 90%;
+    }
+
+    .quadro-projeto{
+        flex-direction: column;
+        height: auto;
+    }
+    .quadro-botoes{
+        margin-top: 15px;
+    }
+    .quadro-projeto img{
+        height: 50%;
+    }
+    .quadro-botoes button{
+        padding: 12px 16px;
+    }
+}
