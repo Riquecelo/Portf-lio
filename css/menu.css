@@ -32,14 +32,7 @@ header{
     text-decoration: none;
     
 }
-/*
-.menu li a::after{
-    
-}
-.menu li a:hover::after{
-    width: 100%; 
-}
-*/
+
 .menu li strong{
     font-weight: bold;
     color: #464646;
@@ -64,4 +57,10 @@ header{
    .menu ul> .ocultar{
        display: none;
    }
+}
+
+@media  (max-width: 368px) {
+ .menu ul li strong{
+     font-size: 14px;
+ }
 }
