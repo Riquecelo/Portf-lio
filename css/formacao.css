@@ -60,9 +60,19 @@
 
     .quadro-imagem img{
         
-        height: 100%;
-        
+        height: 100%;   
     }
-    
+}
 
+@media  (max-width: 768px) {
+    .formacao{
+        height: auto;
+    }
+    .quadro-formacao{
+        flex-direction: column;
+    }
+    .quadro-formacao div{
+        height: auto;
+        width: 97%;
+    }
 }
